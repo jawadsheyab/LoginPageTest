@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeMethod;
 
 public class BaseTest {
 
-    private WebDriver driver;
+    public WebDriver driver;
 
     protected LoginPage loginPage;
 
